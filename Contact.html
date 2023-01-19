@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    button.tablink {
+      font-size: 60px;
+      background-color: antiquewhite;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+
+    body {
+      background-image: url("logo.png");
+    }
+
+    h1 {
+      font-size: 40px;
+      font-family: "Times New Roman", Times, serif;
+      color: aquamarine;
+    }
+
+    a.email {
+      font-size: 30px;
+      color: azure;
+    }
+  </style>
+
+  <body>
+    <button class="tablink" onclick="openPage('Home', this, 'grey')">
+      <a href="index.html">Home</a>
+    </button>
+    <button
+      class="tablink"
+      onclick="openPage('News', this, 'grey')"
+      id="defaultOpen">
+      <a href="Our Goals.html">Our Goal</a>
+    </button>
+    <button class="tablink" onclick="openPage('About', this, 'grey')">
+      <a href="About.html">About</a>
+    </button>
+    <button class="tablink" onclick="openPage('Contact', this, 'grey')">
+      <a href="Contact.html">Contact</a>
+    </button>
+
+    <h1>If You have any concerns or questions, You can Email us on:</h1>
+
+    <a href="mailto:group8ll10@gmail.com" class="email">group8ll10@gmail.com</a>
+  </body>
+</html>

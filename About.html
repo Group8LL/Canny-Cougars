@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    button.tablink {
+      font-size: 60px;
+      background-color: antiquewhite;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+
+    body {
+      background-color: gray;
+    }
+
+    h1 {
+      font-size: 100px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: azure;
+    }
+
+    img {
+      width: 700px;
+      float: left;
+    }
+
+    h2 {
+      font-size: 50px;
+    }
+
+    p.answer {
+      font-size: 20px;
+    }
+  </style>
+
+  <body>
+    <button class="tablink" onclick="openPage('Home', this, 'grey')">
+      <a href="index.html">Home</a>
+    </button>
+    <button
+      class="tablink"
+      onclick="openPage('News', this, 'grey')"
+      id="defaultOpen">
+      <a href="Our Goals.html">Our Goal</a>
+    </button>
+    <button class="tablink" onclick="openPage('About', this, 'grey')">
+      <a href="About.html">About</a>
+    </button>
+    <button class="tablink" onclick="openPage('Contact', this, 'grey')">
+      <a href="Contact.html">Contact</a>
+    </button>
+
+    <h1>About us:</h1>
+
+    <h2>Purpose of this Website</h2>
+    <p class="answer">
+      &#x2022;The main goal of this website is to give our future audience a
+      heads up and what to expect on our Livestream Content.
+    </p>
+    <h2>Reason behind this Website and our livestream</h2>
+    <p class="answer">
+      &#x2022;All the members of this group are APEC Schools Ortigas Extension
+      Students. <br />
+      &#x2022;We are all Grade 10 studnets from section <em>B09-10-S1-2.</em>
+      <br />
+      &#x2022;This Groupings are used on all our subjects. <br />
+      &#x2022;This Website and our plan Livestreaming is a Project from our
+      Subject <em>Lifelabs.</em>
+    </p>
+
+    <img src="members.png" alt="Our Group members" />
+  </body>
+</html>
